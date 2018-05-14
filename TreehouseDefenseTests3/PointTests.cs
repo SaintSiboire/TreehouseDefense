@@ -18,7 +18,7 @@ namespace TreehouseDefense.Tests
 
 			var point = new Point(x, y);
 
-			Assert.Equal(x,point.X);
+			Assert.Equal(x, point.X);
 			Assert.Equal(y, point.Y);
 		}
 
@@ -32,7 +32,7 @@ namespace TreehouseDefense.Tests
 
 			var actual = target.DistanceTo(point);
 
-			Assert.Equal(expected,actual,2);
+			Assert.Equal(expected, actual, 2);
 		}
 
 		[Fact]
